@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,li {
+    list-style: none;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+header > div {
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+header.logo {
+    float: left;
+    margin-top: 10px;
+}
+
+herder.logo img {
+    height: 60px;
+}
+
+header.menu {
+    float: right;
+    margin-top: 30px;
+}
+
+haeder.menu li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header.menu li:first-child {
+    margin-left: 0;
+}
