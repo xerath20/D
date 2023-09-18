@@ -12,7 +12,8 @@ ul,
 li {
     list-style: none;
 }
-header{
+
+header {
     height: 80px;
     border-bottom: 1px solid #ddd;
 }
@@ -36,3 +37,24 @@ header .menu li {
     margin-top: 28px;
 }
 
+#idx_top {
+    width: 100%;
+    padding: 150px 0;
+    background-color: #ddd;
+    background: url(/img/a.jfif) no-repeat 50% 50% /cover;
+    text-align: center;
+}
+
+#idx_top strong {
+    font-size: 60px;
+    color: black;
+    letter-spacing: -2px;
+}
+#idx_top p {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+#yellow{
+    color: red;
+}
