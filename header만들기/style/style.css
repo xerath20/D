@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+header {
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo img {
+    height: 60px;
+    margin-top: 10px;
+}
+
+header .menu {
+    float: right;
+}
+
+header .menu li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 28px;
+}
+
+#idx_top {
+    width: 100%;
+    padding: 150px 0;
+    background-color: #ddd;
+    background: url(/img/b.jfif) no-repeat 50% 50% /cover;
+    text-align: center;
+}
+
+#idx_top strong {
+    font-size: 60px;
+    color: white;
+    letter-spacing: -2px;
+}
+#idx_top p {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+#yellow{
+    color: red;
+}
