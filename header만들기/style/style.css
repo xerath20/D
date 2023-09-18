@@ -41,18 +41,18 @@ header .menu li {
     width: 100%;
     padding: 150px 0;
     background-color: #ddd;
-    background: url(/img/a.jfif) no-repeat 50% 50% /cover;
+    background: url(/img/b.jfif) no-repeat 50% 50% /cover;
     text-align: center;
 }
 
 #idx_top strong {
     font-size: 60px;
-    color: black;
+    color: white;
     letter-spacing: -2px;
 }
 #idx_top p {
     font-size: 20px;
-    color: black;
+    color: white;
     margin-top: 20px;
 }
 #yellow{
