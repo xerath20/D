@@ -65,13 +65,30 @@ header .menu li {
     background: #ddd;
     padding: 50px 0;
 }
-#idx_board_wrap > div{width: 90%; min-width: 1000px; max-width: 1200px; margin: 0 auto;}
+
+#idx_board_wrap > div {
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
 .idx_board {
-    width: 500px;
+    width: 48%;
     background: #fff;
+    display: inline-block;
+}
+.idx_board:nth-child(even){
+    margin-left: 4%;
+}
+.idx_board:nth-child(3),
+.idx_board:nth-child(4){
+    margin-top: 40px;
 }
 
 .idx_board .title {
+    position: relative;
     padding: 20px;
     border-bottom: 1px solid #aaa;
 }
@@ -87,6 +104,12 @@ header .menu li {
     letter-spacing: -2px;
 }
 
+.idx_board .title .more {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+}
+
 .idx_board .title .more img {
     width: 24px;
     margin-left: 3px;
@@ -96,8 +119,14 @@ header .menu li {
     padding: 20px;
     font-size: 0;
 }
-.idx_board .list ul li{margin-top: 10px;}
-.idx_board .list ul li:first-child{margin-top: 0;}
+
+.idx_board .list ul li {
+    margin-top: 10px;
+}
+
+.idx_board .list ul li:first-child {
+    margin-top: 0;
+}
 
 .idx_board .list a {
     font-size: 14px;
