@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트 변수 유효범위2</title>
+</head>
+<body>
+    <h1>전역 변수</h1>
+    <script>
+        let num=10;
+        function globalNum(){
+            document.write("함수 내부에서 변수 num의 값은" + num + "입니다.<br>");
+            num=20;
+        }
+        globalNum();
+        document.write("함수의 호출이 끝난 뒤 변수 num의 타입은" + num + "입니다.<br>");
+    </script>
+</body>
+</html>

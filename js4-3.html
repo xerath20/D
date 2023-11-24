@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트 변수</title>
+</head>
+<body>
+    <h1>같은 변수에 다른 타입의 값 할당</h1>
+    <p id="result"></p>
+    <script>
+        let num=10;
+        document.getElementById("result").innerHTML=num+"<br>";
+        num=[10,20,30];
+        document.getElementById("result").innerHTML+=num+"<br>";
+        /*let num;*/
+        document.getElementById("result").innerHTML+=num;
+    </script>
+</body>
+</html>

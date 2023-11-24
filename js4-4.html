@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트 변수</title>
+</head>
+<body>
+    <h1>객체 사용 예: 학생</h1>
+    <p id="result"></p>
+    <script>
+        let student={
+            KoreanScore: 80,
+            englishScore: 70,
+            mathScore: 90,
+            scienceScore: 60
+        };
+        document.getElementById("result").innerHTML="국어 성적은 "+student.KoreanScore+"점입니다.<br>"
+        document.getElementById("result").innerHTML+="수학 성적은 "+student['mathScore']+"점입니다.<br>"
+    </script>
+</body>
+</html>
